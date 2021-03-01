@@ -1,0 +1,20 @@
+{
+  "terraClientID": "paymentsdk:android:playstore:1.0.0-test",
+  "terraEnvironment": "dev",
+  "defaultConfig": {
+    "@type": "type.googleapis.com/terra.v1.Pandora",
+    "config": "K7YJRvB+qRzWnjhht9+qkg4DKDTY3oulynIrlrgoeY7GW3jHh9A0+xlqfDwRg16GzWqYiwQm+NLAkRkJrS6qZWvg3J7YBmAadtBzVdU877dcC8jCEs6pecXT+AkubcI=",
+    "services": [
+      {
+        "name": "Payment",
+        "code": "ps",
+        "config": "xGYWSJVeQjLJGP26lO0ZanwPpCEC6XxximmJMnHKO0GKgAX8MHk2j+QUtldOi3j1gH2ko+gGsEhWonbCRvjo4Vua6nYk6e3prFRKpAKUkzb44g0EgdlJagorSngmbN8Px/lRxTnOATAAdk5Y68nX4Wt0tCHm6sOfmUbTJxg5QLAPpuHq7ypzE4NiqpY8AMSA4Q69ARby1y8j9hKPy8U8wnizq5rfNpwqzaDsdEWOjFPr4PEuPdkyQxAC/KNXWTpcidhOKG1BnaFGJpXm+B2SCPS7qiq5AWqE+5DQp1Se6Ej0Xm1+c0qA6Es68gfAfpoWrRXxdu7i2F6n4NNJzndUDilSHbLxAScGjhjAIUs/Dxg+/Lvy7THhg9INZzei1SSXoL97ZgDTIMTwuFrDohi5uVcA08EyDeBan592tTPYmySh6TQvY94Fo1pEKCboRe7jNNpYD8ZS+DLcscoeRKO81dwnm04q5SwQkYts/em/5UBp0AkwVEjGRABbfRceosW6JJGP7zs/ucDvbxiFheprwPGUdiNtvO685pMlyTWPoBHeh0y9lvxNi/kURpF37AwEsaC5nlXBYd/YBjS+S2mPGRt8HNkf+WJzgxtiSaBdTFGHcUXTl2FWu0eFy8x33gG0YkKHvKqHTLgK0kHOiQGnOO72JQMx0Vp0Cc8rkxXJoQxM/1biMsz1zQmxtn1qGLn3N+h3AP6Y8eqegKzJaCiGqraFE5xWv1alMvc/NZs1gN/CDe6IFBfkXEGpDQeJT5nmoAqOBXjXqgAYTcyM3fh8Xsw/LAjdo0m/AKj7rFqcFOB64atW2Zk="
+      },
+      {
+        "name": "Hestia",
+        "code": "hestia",
+        "config": "aDsOQL+pAFi95friYg1HC07soReyiHy6KikTOtDgkSrHYZMlxhJktul2eLBeoND7oYaBmlnvg6f+uNY+I+4cc+q1LIUwcqc2Hqc8IwFrrPtYU0jaYuYyx2UqHmGo6Fmg556ybVZwasU0Zg3jDwecZM0/zcLbDBISAYXqkdbZMEU="
+      }
+    ]
+  }
+}

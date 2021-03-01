@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.teko.hestia.android.demomininativeapp">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MiniAppActivity"
+            android:theme="@style/DemoMiniAppTheme" />
+        <activity
+            android:name=".PaymentResultActivity"
+            android:theme="@style/DemoMiniAppTheme" />
+    </application>
+
+</manifest>

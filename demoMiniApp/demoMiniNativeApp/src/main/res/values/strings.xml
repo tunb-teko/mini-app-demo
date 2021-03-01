@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">demo mini native app</string>
+    <string name="request_payment">Request payment</string>
+</resources>

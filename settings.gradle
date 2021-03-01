@@ -1,0 +1,13 @@
+include(
+    ":app",
+    ":demoMiniApp:demoMiniNativeApp",
+    ":demoMiniApp:demoMiniNativeAppConnector"
+)
+
+rootProject.name = "Mini App demo"
+
+project(":demoMiniApp:demoMiniNativeApp").projectDir =
+    new File(rootProject.projectDir, "./demoMiniApp/demoMiniNativeApp")
+
+project(":demoMiniApp:demoMiniNativeAppConnector").projectDir =
+    new File(rootProject.projectDir, "./demoMiniApp/demoMiniNativeAppConnector")
