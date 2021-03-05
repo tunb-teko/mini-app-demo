@@ -16,14 +16,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        findViewById<Button>(R.id.btnOpenMiniApp).setOnClickListener {
-            openMiniApp()
-        }
-    }
-
-    private fun openMiniApp() {
-        val hestia = TerraHestia.getInstance(terraApp = TerraApp.getInstance())
-        hestia.startApp("mini_app", authMock, DefaultAndroidHestiaUIHelper(this))
     }
 }

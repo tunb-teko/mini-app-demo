@@ -18,6 +18,8 @@ class MiniAppActivity : AppCompatActivity() {
 
         title = "Mini Application"
 
+        val extraIdToken = intent.getStringArrayExtra("extra_id_token")
+
         findViewById<Button>(R.id.btnRequestPayment).setOnClickListener {
             PaymentKit.pay(context = this,
                 paymentRequest = PaymentRequest(

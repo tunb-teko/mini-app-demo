@@ -1,5 +1,12 @@
 package vn.teko.hestia.android.demomininativeapp
 
+/**
+ * The class that contains initialize data from the Super app.
+ * This is used for providing the Super app's data inside the Mini app
+ *
+ * @property dummyString
+ * @constructor Create empty Mini app sdk
+ */
 class MiniAppSdk(
     private val dummyString: String
 ) {

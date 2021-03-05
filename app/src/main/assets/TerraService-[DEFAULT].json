@@ -3,17 +3,22 @@
   "terraEnvironment": "dev",
   "defaultConfig": {
     "@type": "type.googleapis.com/terra.v1.Pandora",
-    "config": "K7YJRvB+qRzWnjhht9+qkg4DKDTY3oulynIrlrgoeY7GW3jHh9A0+xlqfDwRg16GzWqYiwQm+NLAkRkJrS6qZWvg3J7YBmAadtBzVdU877dcC8jCEs6pecXT+AkubcI=",
+    "config": "VmHoCaVgqu2xk0Vqco0ERAYjns6lMStv8db9jma0sxQov+fVI+40E/iVJL5HKHL0ksTtPGnRpky8AqIiMlhZ/E0tkCB3iRmNT1m5U8xasIVDklark9R9dw7y7lcci0Y=",
     "services": [
+      {
+        "name": "IAM",
+        "code": "iam",
+        "config": "EYG1MK99Ra6jlJi9yh2J8+lub0oQgIzXl7jPy4wfAlREzsUL5BJ01WWTIdijeD9TTzbiHhzacZ6NNxtb6ZJggjCeByF76kx7ixTBtBluJOt7RjZ9sb7nk4TF/ommfw0RBDMBvuVASjJTrVUHFK+hWJOzGeYorbZppGSm0b+Dwhg2HKxXySl2hJFRrs/7mnJzcN6kgyAI5lHgeTuapVaZ/QryT2ms2+M4P1Fv50+9kj9OzoMqHeosiLG7uZd8lGRMiclMw7xjGJOaXjTTSQltXmG3XObHurqN4w3lECaZwGGAtWZggq6YgMKDnTFWQQQ6AWuTo0SYndN+2f4KRWIC4vRrI1bTJzxIq+lbO9giwOakQrbgQCBXv/LA9iNU2Bbzz2H+zSGiN2Rn3g/GymLXpmhJIvEdRw7iKf5zfFxLgLR3MRDFG5XAr2DUHcbhhD83WSUkJg/XKLzABeAL1XfJL2EAiYSKGo/9B2aRTSRT/L/K1poW5bCxWFuU/kqRYZt/ISyg+MU2IJfQ2iWmJPFCvm1z4WKAHMHQZHZUJ1Iax2PcGl0Ul2G3lxvF4cxvAGHPXQjCQuLH"
+      },
       {
         "name": "Payment",
         "code": "ps",
-        "config": "xGYWSJVeQjLJGP26lO0ZanwPpCEC6XxximmJMnHKO0GKgAX8MHk2j+QUtldOi3j1gH2ko+gGsEhWonbCRvjo4Vua6nYk6e3prFRKpAKUkzb44g0EgdlJagorSngmbN8Px/lRxTnOATAAdk5Y68nX4Wt0tCHm6sOfmUbTJxg5QLAPpuHq7ypzE4NiqpY8AMSA4Q69ARby1y8j9hKPy8U8wnizq5rfNpwqzaDsdEWOjFPr4PEuPdkyQxAC/KNXWTpcidhOKG1BnaFGJpXm+B2SCPS7qiq5AWqE+5DQp1Se6Ej0Xm1+c0qA6Es68gfAfpoWrRXxdu7i2F6n4NNJzndUDilSHbLxAScGjhjAIUs/Dxg+/Lvy7THhg9INZzei1SSXoL97ZgDTIMTwuFrDohi5uVcA08EyDeBan592tTPYmySh6TQvY94Fo1pEKCboRe7jNNpYD8ZS+DLcscoeRKO81dwnm04q5SwQkYts/em/5UBp0AkwVEjGRABbfRceosW6JJGP7zs/ucDvbxiFheprwPGUdiNtvO685pMlyTWPoBHeh0y9lvxNi/kURpF37AwEsaC5nlXBYd/YBjS+S2mPGRt8HNkf+WJzgxtiSaBdTFGHcUXTl2FWu0eFy8x33gG0YkKHvKqHTLgK0kHOiQGnOO72JQMx0Vp0Cc8rkxXJoQxM/1biMsz1zQmxtn1qGLn3N+h3AP6Y8eqegKzJaCiGqraFE5xWv1alMvc/NZs1gN/CDe6IFBfkXEGpDQeJT5nmoAqOBXjXqgAYTcyM3fh8Xsw/LAjdo0m/AKj7rFqcFOB64atW2Zk="
+        "config": "8X/nP4Fd8QJfZLROkCNcwgSnj+Vmzf3zssRGzJKdei9tX0xsP6Pn+hBIxWmOnIMraXgWhvA1/zIdoJVsgibLFeOXEbhaDxdZ+D0kxPtZeMIuByH/FKvyqPP5AUnpuOfWSQvBJk7PMjcwLhxGzTAUCLnz3wPnJuXbksAuG0AUoeyz7D8zYRN5Xx/lsnbndvy7jwdm7LeUONaJ97z+4WMzT8w0FYLR3HPUg8Cwbyp6uH9Go8HcM/0cgRfRMLL+9782zGjkYni+gX/kTXVRGX6Cerostl87NWf1gnseeJTQFYa40qdIgqbYVxc+NbgAkoCjapeyi9Br6quyJ0NA6iIF6gu4tBmd9Cks1fbkZhuTTiEOaKgYUzPjOMxxxwhdW+oHr8360v6kqmPPgjw+jPSGwix+LL8paZM42g0lmo2xuo/DcdxNgkgSp+4hF91mdKOQg/R1Dl5+kmH+gi4+OYRypajKf6Fy+4OISi+VxhyHT2/meflPIHWIkmzZP6nZEQMZRidLVArZRJB4kGyfpX06sz7V3fTrzgG9qpanY1bvRvfq1/sD9pXG1tLc74j9d/nA5GrKjqrSlUMNcyBRKmhzd5pcDVLO+RTrKGlVZ3TP3Ie0qPQOQN7ACRAgx7A12DV9pLJHRqd363ZimHSANiUWVyrtvU/ANhn7gXe44V0eQAguKw/DzrofoPYFf7bep0+FK2lQueRWHT/m70f8D+/H2IUjarUxkDWyXVAMX8Azm9aGeZKxiSdqRxVev96Tg+6iJVA01BJoo/mmd0BqwakgdxtS9irRv7GEiJI1QEUbpTZNqshNNeU="
       },
       {
         "name": "Hestia",
         "code": "hestia",
-        "config": "aDsOQL+pAFi95friYg1HC07soReyiHy6KikTOtDgkSrHYZMlxhJktul2eLBeoND7oYaBmlnvg6f+uNY+I+4cc+q1LIUwcqc2Hqc8IwFrrPtYU0jaYuYyx2UqHmGo6Fmg556ybVZwasU0Zg3jDwecZM0/zcLbDBISAYXqkdbZMEU="
+        "config": "WKwb4pvJAlvj7l8XQp2tMWM6eYU+qieRc710iEN1lI6hlbI3BOmCgnvbEn1zH4ZbaX9/6vrkM7PKHnnnEJMfJ9Ka06YBC/X3nY3T+aC0UoA6BwYHbeef2xdjzhLT3HOQEfcRxLG+tDWQ2gBzApsRGXHfGxxm4sjiYMEaP3O5BBw="
       }
     ]
   }

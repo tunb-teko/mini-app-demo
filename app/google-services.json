@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "757404862762",
+    "project_id": "mini-app-demo-641fd",
+    "storage_bucket": "mini-app-demo-641fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757404862762:android:43cfe480afc2260219b653",
+        "android_client_info": {
+          "package_name": "vn.teko.demo.miniapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757404862762-n27a2e5eorp5j0qau20teotkdjsr5alq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.teko.demo.miniapp",
+            "certificate_hash": "8074c8264727c2d362238037166afb00a431ec57"
+          }
+        },
+        {
+          "client_id": "757404862762-0tj9323ee23hk5o5jrg7qdnedmtd2kb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDApHsWn7rzCuX2LnSjnzhodNYdgfeRw40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757404862762-0tj9323ee23hk5o5jrg7qdnedmtd2kb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
