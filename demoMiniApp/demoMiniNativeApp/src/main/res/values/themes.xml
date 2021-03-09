@@ -1,7 +1,7 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="DemoMiniAppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="MiniAppDemoMiniAppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/demo_mini_app_purple_500</item>
+        <item name="colorPrimary">@color/mini_app_purple_500</item>
     </style>
 </resources>

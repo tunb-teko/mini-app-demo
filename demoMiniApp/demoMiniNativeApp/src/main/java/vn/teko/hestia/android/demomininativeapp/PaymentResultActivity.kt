@@ -9,7 +9,7 @@ import vn.teko.android.payment.kit.model.PaymentResult
 class PaymentResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_payment_result)
+        setContentView(R.layout.mini_app_activity_payment_result)
 
         val paymentResultStatus = when (intent.getIntExtra(PAYMENT_RESULT_CODE, 0)) {
             PaymentResult.RESULT_CANCELED -> "canceled"

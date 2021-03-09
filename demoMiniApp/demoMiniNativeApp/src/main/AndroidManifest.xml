@@ -7,10 +7,10 @@
         android:supportsRtl="true">
         <activity
             android:name=".MiniAppActivity"
-            android:theme="@style/DemoMiniAppTheme" />
+            android:theme="@style/MiniAppDemoMiniAppTheme" />
         <activity
             android:name=".PaymentResultActivity"
-            android:theme="@style/DemoMiniAppTheme" />
+            android:theme="@style/MiniAppDemoMiniAppTheme" />
     </application>
 
 </manifest>

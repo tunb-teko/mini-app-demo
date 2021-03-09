@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">demo mini native app</string>
-    <string name="request_payment">Request payment</string>
+    <string name="mini_app_app_name">demo mini native app</string>
+    <string name="mini_app_request_payment">Request payment</string>
+    <string name="mini_app_pay_with_qr_code">Pay with QR Code</string>
 </resources>
