@@ -70,7 +70,7 @@ dependencies {
     implementation "vn.teko.hestia:hestia-android-native:0.1.0-alpha.1"
 
     // PAYMENT
-    implementation "vn.teko.android.payment:payment-ui:1.1.0-beta.3"
+    implementation "vn.teko.android.payment:payment-ui:1.1.0"
 
     // MINI APP
     implementation project(path: ":demoMiniApp:demoMiniNativeAppConnector")
