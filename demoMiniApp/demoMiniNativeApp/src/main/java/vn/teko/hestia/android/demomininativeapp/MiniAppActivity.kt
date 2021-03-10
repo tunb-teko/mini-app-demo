@@ -10,6 +10,7 @@ import vn.teko.android.payment.kit.PaymentKit
 import vn.teko.android.payment.kit.PaymentResultCallback
 import vn.teko.android.payment.kit.model.PaymentRequest
 import vn.teko.android.payment.kit.model.PaymentResult
+import java.util.*
 
 
 class MiniAppActivity : AppCompatActivity() {
@@ -31,7 +32,8 @@ class MiniAppActivity : AppCompatActivity() {
                 paymentRequest = PaymentRequest(
                     orderCode = "terra-6789",
                     amount = 10000,
-                    merchantCode = "TEST"
+                    merchantCode = "TRIPI",
+                    clientTransactionCode = "tripi-" + UUID.randomUUID().toString()
                 ),
                 callback = object : PaymentResultCallback {
                     override fun onResult(result: PaymentResult) {
@@ -55,7 +57,8 @@ class MiniAppActivity : AppCompatActivity() {
                 paymentRequest = PaymentRequest(
                     orderCode = "terra-6789",
                     amount = 10000,
-                    merchantCode = "TEST"
+                    merchantCode = "TRIPI",
+                    clientTransactionCode = "tripi-" + UUID.randomUUID().toString()
                 ),
                 callback = object : PaymentResultCallback {
                     override fun onResult(result: PaymentResult) {

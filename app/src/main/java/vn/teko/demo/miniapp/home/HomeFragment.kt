@@ -64,6 +64,6 @@ class HomeFragment : Fragment() {
 
     private fun openMiniApp() {
         val hestia = TerraHestia.getInstance(terraApp)
-        hestia.startApp("tripi", authManager, DefaultAndroidHestiaUIHelper(requireContext()))
+        hestia.startApp("mini_app", authManager, DefaultAndroidHestiaUIHelper(requireContext()))
     }
 }
