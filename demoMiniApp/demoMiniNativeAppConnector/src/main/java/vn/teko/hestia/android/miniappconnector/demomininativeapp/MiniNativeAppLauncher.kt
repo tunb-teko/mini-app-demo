@@ -20,6 +20,7 @@ class MiniNativeAppLauncher : AndroidAppLauncher {
         intent: Intent,
         launcherData: AppLauncherData
     ) {
+        println("launcherData.idToken: " + launcherData.idToken)
         intent.putExtra("extra_id_token", launcherData.idToken)
     }
 }

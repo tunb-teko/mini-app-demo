@@ -36,6 +36,6 @@ android {
 dependencies {
     implementation project(path: ":demoMiniApp:demoMiniNativeApp")
 
-    implementation "vn.teko.android.payment:payment-kit:1.1.1"
+    implementation "vn.teko.android.payment:payment-kit:1.1.2"
     implementation "vn.teko.hestia:hestia-android:0.1.0"
 }

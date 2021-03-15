@@ -40,6 +40,13 @@ allprojects {
                 password properties.getProperty('TekoPackage.password')
             }
         }
+        maven {
+            url 'https://repo.tripi.vn/artifactory/gradle-release-local/'
+            credentials {
+                username = "viewer"
+                password = "onlyview"
+            }
+        }
     }
 }
 

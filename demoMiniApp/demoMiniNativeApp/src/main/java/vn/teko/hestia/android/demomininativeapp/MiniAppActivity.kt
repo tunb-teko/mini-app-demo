@@ -32,8 +32,7 @@ class MiniAppActivity : AppCompatActivity() {
                 paymentRequest = PaymentRequest(
                     orderCode = "terra-6789",
                     amount = 10000,
-                    merchantCode = "TRIPI",
-                    clientTransactionCode = "tripi-" + UUID.randomUUID().toString()
+                    merchantCode = "TRIPI"
                 ),
                 callback = object : PaymentResultCallback {
                     override fun onResult(result: PaymentResult) {
@@ -57,8 +56,7 @@ class MiniAppActivity : AppCompatActivity() {
                 paymentRequest = PaymentRequest(
                     orderCode = "terra-6789",
                     amount = 10000,
-                    merchantCode = "TRIPI",
-                    clientTransactionCode = "tripi-" + UUID.randomUUID().toString()
+                    merchantCode = "TRIPI"
                 ),
                 callback = object : PaymentResultCallback {
                     override fun onResult(result: PaymentResult) {
