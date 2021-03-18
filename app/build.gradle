@@ -59,7 +59,7 @@ dependencies {
 
 //    implementation fileTree(dir: 'libs', include: ['*.aar'])
 
-    implementation "vn.vntravel.flight.dev:flight-connector:1.0.7"
+    implementation "vn.vntravel.flight.dev:flight-connector:1.0.8"
 
     // TERRA
     implementation "vn.teko.terra:terra-core-android:0.4.4"
