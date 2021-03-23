@@ -59,10 +59,10 @@ dependencies {
 
 //    implementation fileTree(dir: 'libs', include: ['*.aar'])
 
-    implementation "vn.vntravel.flight.dev:flight-connector:1.0.8"
+    implementation "vn.vntravel.flight.dev:flight-connector:1.1.7"
 
     // TERRA
-    implementation "vn.teko.terra:terra-core-android:0.4.4"
+    implementation "vn.teko.terra:terra-core-android:0.4.5"
 
     // AUTH
     implementation "vn.teko.android.auth:auth-core:0.1.10"
@@ -70,8 +70,8 @@ dependencies {
     implementation "vn.teko.android.auth:auth-login:0.1.10"
 
     // HESTIA
-    implementation "vn.teko.hestia:hestia-android:0.1.0"
-    implementation "vn.teko.hestia:hestia-android-native:0.1.0"
+    implementation "vn.teko.hestia:hestia-android:0.1.1"
+    implementation "vn.teko.hestia:hestia-android-native:0.1.1"
 
     // PAYMENT
     implementation "vn.teko.android.payment:payment-ui:1.1.3"
