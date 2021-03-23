@@ -19,3 +19,34 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keepattributes Signature
+-printconfiguration ./build/full-r8-config.txt
+
+-keep class * implements android.os.Parcelable
+
+# glide
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public class * extends com.bumptech.glide.module.AppGlideModule
+-keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}
+
+#If you're targeting any API level less than Android API 27, also include:
+-dontwarn com.bumptech.glide.load.resource.bitmap.VideoDecoder
+
+-keep class vn.teko.android.auth.** { *; }
+
+# To preserve the info Crashlytics needs for readable crash reports
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Exception
+
+-keep class vn.teko.service.** { *; }
+-keep class vn.teko.android.payment.** { *; }
+# because we're using refection to process annotation for android framework module
+-keep class vn.teko.android.framework.** { *; }
+
+# keep Kotlin metadata
+-keep class kotlin.Metadata { *; }
+-keepattributes RuntimeVisibleAnnotations

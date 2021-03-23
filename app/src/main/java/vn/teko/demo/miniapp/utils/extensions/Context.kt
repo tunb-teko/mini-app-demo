@@ -1,4 +1,4 @@
-package vn.teko.hestia.android.utils.extensions
+package vn.teko.demo.miniapp.utils.extensions
 
 import android.content.Context
 import android.content.DialogInterface

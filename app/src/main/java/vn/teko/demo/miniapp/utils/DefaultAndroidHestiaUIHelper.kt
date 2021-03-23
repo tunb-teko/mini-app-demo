@@ -3,8 +3,8 @@ package vn.teko.android.payment.example_v2.utils
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
 import vn.teko.hestia.android.R.string
-import vn.teko.hestia.android.utils.extensions.showMessageDialog
-import vn.teko.hestia.android.utils.extensions.showProgressDialog
+import vn.teko.demo.miniapp.utils.extensions.showMessageDialog
+import vn.teko.demo.miniapp.utils.extensions.showProgressDialog
 import vn.teko.hestia.core.HestiaUIHelper
 
 class DefaultAndroidHestiaUIHelper(private val context: Context?) :
